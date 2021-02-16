@@ -12,3 +12,6 @@ then
 echo "this server is very small, you need to run your program somewhere else. thanks for your understanding!"
 exit 2
 fi
+# check memory
+
+free -m
